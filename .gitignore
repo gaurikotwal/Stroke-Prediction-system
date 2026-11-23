@@ -1,0 +1,26 @@
+# Dataset files
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated model artifacts
+models/
+*.pkl
+*.joblib
+
+# Generated charts (can be committed selectively)
+# visualizations/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
